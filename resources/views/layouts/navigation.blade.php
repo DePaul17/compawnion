@@ -74,13 +74,15 @@
             <div class="hidden sm:flex sm:items-center sm:ms-6">
                 <div class="flex items-center space-x-1">
                     <!-- Photo de profil -->
-                    <a href="{{ route('profile.edit') }}">
-                        <img 
-                            src="{{ auth()->user()?->client?->picture ? asset('storage/' . auth()->user()->client->picture) : asset('images/utilisateur.png') }}" 
-                            alt="Photo de profil" 
-                            class="w-8 h-8 rounded-full object-cover hover:opacity-80 transition"
-                        >
-                    </a>
+                    @if(auth()->user()?->client)
+                        <a href="{{ route('profile.edit') }}">
+                            <img 
+                                src="{{ auth()->user()?->client?->picture ? asset('storage/' . auth()->user()->client->picture) : asset('images/utilisateur.png') }}" 
+                                alt="Photo de profil" 
+                                class="w-8 h-8 rounded-full object-cover hover:opacity-80 transition"
+                            >
+                        </a>
+                    @endif
 
                     <!-- Dropdown -->
                     <x-dropdown align="right" width="48">
