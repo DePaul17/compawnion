@@ -3,9 +3,10 @@
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DisponibilityController;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KeptAnimalController;
-
+use App\Http\Controllers\FavoriteController; 
+use App\Http\Controllers\PetsitterController;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
@@ -39,9 +40,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+//  Route::get('/dashboard', [ProfileController::class, 'showDashboard'])
+//     ->middleware(['auth', 'verified'])
+//     ->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::post('/dashboard', [ProfileController::class, 'store'])->name('profile.store');
@@ -53,6 +54,11 @@ Route::middleware('auth')->group(function () {
 
     Route::middleware('client')->group(function () { 
         Route::get('/become-petsitter', [ProfileController::class, 'becomePetsitter'])->name('become-petsitter');
+        Route::get('/petsitter/{id}', [PetsitterController::class, 'show'])->name('petsitter.show');
+
+        Route::post('/favorites', [FavoriteController::class, 'store'])->name('favorites.store');
+        Route::delete('/favorites/{id}', [FavoriteController::class, 'destroy'])->name('favorites.destroy');
+        Route::get('/favorites', [FavoriteController::class, 'index'])->name('favorites.index');        
     });
 
     Route::middleware(['petsitter'])->group(function () { 
@@ -67,7 +73,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/kept_animals/{keptAnimal}/edit', [KeptAnimalController::class, 'edit'])->name('kept_animals.edit');
         Route::put('/kept_animals/{keptAnimal}', [KeptAnimalController::class, 'update'])->name('kept_animals.update');
         Route::delete('/kept_animals/{keptAnimal}', [KeptAnimalController::class, 'destroy'])->name('kept_animals.destroy');
-     });
+    });
 
     //Vérification du profil
     Route::get('/dashboard', [AuthenticatedSessionController::class, '__invoke'])

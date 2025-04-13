@@ -28,7 +28,11 @@ class ProfileController extends Controller
             'name' => 'required|string|max:255',
             'first_name' => 'required|string|max:255',
             'date_of_birth' => ['required', 'date', 'before_or_equal:' . now()->subYears(18)->toDateString()],
-            'address' => 'required|string|max:255',
+            //'address' => 'required|string|max:255',
+            'street' => 'required|string|max:255',
+            'postal_code' => 'required|string|max:10',
+            'city' => 'required|string|max:255',
+            'country' => 'required|string|max:255',
             'type_client' => 'required|string|in:client,petsitter,specialist',
 
             // conditionnels :
@@ -50,16 +54,16 @@ class ProfileController extends Controller
 
         $certificatePath = $request->hasFile('petsitter_certificate_acaced')
             ? $request->file('petsitter_certificate_acaced')->store('documents', 'public')
-            : null;    
+            : null;
 
         $verificatePath = $request->hasFile('verificate')
             ? $request->file('verificate')->store('documents', 'public')
-            : null; 
-        
-        $picturePath = $request->hasFile('picture')    
+            : null;
+
+        $picturePath = $request->hasFile('picture')
             ? $request->file('picture')->store('documents', 'public')
             : null;
-            
+
 
         // enregistrement en base
         Client::create([
@@ -67,7 +71,13 @@ class ProfileController extends Controller
             'name' => $validated['name'],
             'first_name' => $validated['first_name'],
             'date_of_birth' => $validated['date_of_birth'],
-            'address' => $validated['address'],
+            //'address' => $validated['address'],
+            'address' => json_encode([
+                'street'      => $validated['street'],
+                'postal_code' => $validated['postal_code'],
+                'city'        => $validated['city'],
+                'country'     => $validated['country'],
+            ]),
             'type_client' => $validated['type_client'],
             'identity_document' => $identityDocumentPath,
             'attestation' => $attestationPath,
@@ -150,7 +160,7 @@ class ProfileController extends Controller
     public function deleteImage(Request $request): RedirectResponse
     {
         $client = $request->user()->client;
-      
+
         if ($request->has('delete_picture') && $request->boolean('delete_picture')) {
             if ($client && $client->picture) {
                 if (Storage::disk('public')->exists($client->picture)) {
@@ -169,5 +179,14 @@ class ProfileController extends Controller
     public function becomePetsitter()
     {
         return view('client.become-petsitter');
+    }
+
+    public function showDashboard()
+    {
+        $petsitters = Client::with('user')
+            ->where('type_client', 'petsitter')
+            ->get();
+
+        return view('dashboard', compact('petsitters'));
     }
 }

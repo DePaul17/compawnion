@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string("name");
             $table->string("first_name");
             $table->date("date_of_birth");
-            $table->string("address");
+            $table->json("address");
             $table->string("type_client");
             $table->string("identity_document")->nullable();
             $table->string("picture")->nullable();
