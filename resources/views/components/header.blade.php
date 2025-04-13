@@ -43,7 +43,7 @@
                 <li class="nav-item"><a href="/vet" class="nav-link">Vétérinaire</a></li>
                 <li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="/gallery" class="nav-link">Gallerie</a></li>
-                <li class="nav-item"><a href="/pricing" class="nav-link">Prix</a></li>
+                <!-- <li class="nav-item"><a href="/pricing" class="nav-link">Prix</a></li> -->
                 <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
             </ul>

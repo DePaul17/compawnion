@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
-                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Veterinarian <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Veterinaire <i class="ion-ios-arrow-forward"></i></span></p>
                     <h1 class="mb-0 bread">Rencontrez nos vétérinaires</h1>
                 </div>
             </div>
@@ -162,7 +162,8 @@
             <div class="row d-md-flex justify-content-end">
                 <div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
                     <h2 class="mb-4">Consultation</h2>
-                    <form action="#" class="appointment">
+                    <form action="{{ route('subscription.create') }}" method="POST" class="appointment">
+                        @csrf
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">

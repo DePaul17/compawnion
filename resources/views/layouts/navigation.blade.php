@@ -12,7 +12,7 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="hover:text-green-400">
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
@@ -26,53 +26,53 @@
                         </div> -->
 
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('favorites.index')" :active="request()->routeIs('favorites.index')">
+                            <x-nav-link :href="route('favorites.index')" :active="request()->routeIs('favorites.index')" class="hover:text-green-400">
                                 {{ __('Favoris') }}
                             </x-nav-link>
                         </div>
 
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('index.chat')" :active="request()->routeIs('index.chat')">
+                            <x-nav-link :href="route('index.chat')" :active="request()->routeIs('index.chat')" class="hover:text-green-400">
                                 {{ __('Messages') }}
                             </x-nav-link>
                         </div>
 
-                        <!-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('become-petsitter')" :active="request()->routeIs('favorites')">
-                                {{ __('Devenir Pet Sitter') }}
-                            </x-nav-link>
-                        </div> -->
-                    @elseif (auth()->user()->client && auth()->user()->client->type_client === 'petsitter')
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('disponibilites')" :active="request()->routeIs('disponibilites')">
+                            <x-nav-link :href="route('appointment')" :active="request()->routeIs('appointment')" class="hover:text-green-400">
+                                {{ __('Prendre un rendez-vous') }}
+                            </x-nav-link>
+                        </div>
+                    @elseif (auth()->user()->client && auth()->user()->client->type_client === 'petsitter')
+                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex hover:text-green-400">
+                            <x-nav-link :href="route('disponibilites')" :active="request()->routeIs('disponibilites')" class="hover:text-green-400">
                                 {{ __('Mes disponibilités') }}
                             </x-nav-link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('kept_animals')" :active="request()->routeIs('kept_animals')">
+                            <x-nav-link :href="route('kept_animals')" :active="request()->routeIs('kept_animals')" class="hover:text-green-400">
                                 {{ __('Animaux gardés') }}
                             </x-nav-link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')">
+                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')" class="hover:text-green-400">
                                 {{ __('Mes Documents') }}
                             </x-nav-link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')">
-                                {{ __('Mesaages') }}
+                            <x-nav-link :href="route('index.chat')" :active="request()->routeIs('index.chat')" class="hover:text-green-400">
+                                {{ __('Messages') }}
                             </x-nav-link>
                         </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')">
+                        {{-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')" class="hover:text-green-400">
                                 {{ __('Missions') }}
                             </x-nav-link>
-                        </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')">
+                        </div> --}}
+                        {{-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')" class="hover:text-green-400">
                                 {{ __('Avis reçus') }}
                             </x-nav-link>
-                        </div>
+                        </div> --}}
                     @endif
                 @endauth
             </div>
