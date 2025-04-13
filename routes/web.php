@@ -6,6 +6,7 @@ use App\Http\Controllers\DisponibilityController;
 use App\Http\Controllers\KeptAnimalController;
 use App\Http\Controllers\FavoriteController; 
 use App\Http\Controllers\PetsitterController;
+use App\Http\Livewire\Chat\Index;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -51,6 +52,11 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::put('/profile/image', [ProfileController::class, 'deleteImage'])->name('profile.delete-image');
+
+    Route::get('/messages', function (){ return view('livewire.chat.index'); })->name('index.chat');
+    Route::get('/messages/{query}', function (){ return view('livewire.chat.chat'); })->name('chat.chat');
+    Route::get('/users/{query}', function (){ return view('livewire.chat.users'); })->name('user.chat');
+    //Route::get('/messages', Index::class)->name('chat.index');
 
     Route::middleware('client')->group(function () { 
         Route::get('/become-petsitter', [ProfileController::class, 'becomePetsitter'])->name('become-petsitter');

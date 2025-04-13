@@ -41,9 +41,13 @@ class AuthenticatedSessionController extends Controller
             ->where('type_client', 'petsitter')
             ->get();
 
-        $favorites = Favorite::where('client_id', $client->id)
-            ->pluck('id', 'petsitter_id')
-            ->toArray();
+        $favorites = [];
+
+        if ($client) {
+            $favorites = Favorite::where('client_id', $client->id)
+                ->pluck('id', 'petsitter_id')
+                ->toArray();
+        }
 
         return view('dashboard', compact('client', 'petsitters', 'favorites'));
     }

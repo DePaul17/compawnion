@@ -19,11 +19,11 @@
 
                 @auth
                     @if (auth()->user()->client && auth()->user()->client->type_client === 'client')
-                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                        <!-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                             <x-nav-link :href="route('dashboard')" :active="request()->routeIs('howdoesitwork')">
-                                <!-- {{ __('Comment ça marche ?') }} -->
+                                {{ __('Comment ça marche ?') }}
                             </x-nav-link>
-                        </div>
+                        </div> -->
 
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                             <x-nav-link :href="route('favorites.index')" :active="request()->routeIs('favorites.index')">
@@ -32,10 +32,16 @@
                         </div>
 
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                            <x-nav-link :href="route('become-petsitter')" :active="request()->routeIs('favorites')">
-                                <!-- {{ __('Devenir Pet Sitter') }} -->
+                            <x-nav-link :href="route('index.chat')" :active="request()->routeIs('index.chat')">
+                                {{ __('Messages') }}
                             </x-nav-link>
                         </div>
+
+                        <!-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <x-nav-link :href="route('become-petsitter')" :active="request()->routeIs('favorites')">
+                                {{ __('Devenir Pet Sitter') }}
+                            </x-nav-link>
+                        </div> -->
                     @elseif (auth()->user()->client && auth()->user()->client->type_client === 'petsitter')
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                             <x-nav-link :href="route('disponibilites')" :active="request()->routeIs('disponibilites')">
