@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
-                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
                     <h1 class="mb-0 bread">Contact</h1>
                 </div>
             </div>
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">Contact Form #03</h2>
+                    <h2 class="heading-section">Nous Contacter</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -30,7 +30,7 @@
                                         <span class="fa fa-map-marker"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                        <p><span>Adresse:</span> 6-8 Impasses des 2 Cousins, 75017 paris</p>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                         <span class="fa fa-phone"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                        <p><span>Téléphone:</span> <a href="tel://1234567920"> +33 7 44 73 10 95</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                         <span class="fa fa-paper-plane"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">contact@compawnion.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                                         <span class="fa fa-globe"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                        <p><span>Site Web</span> <a href="#">compawnion.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -68,36 +68,36 @@
                         <div class="row no-gutters">
                             <div class="col-md-7">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3 class="mb-4">Contact Us</h3>
+                                    <h3 class="mb-4">Contact</h3>
                                     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="label" for="name">Full Name</label>
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                    <label class="label" for="name">Nom  Prenom</label>
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="label" for="email">Email Address</label>
-                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                    <label class="label" for="email">Email</label>
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label class="label" for="subject">Subject</label>
-                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                                    <label class="label" for="subject">Objet</label>
+                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label class="label" for="#">Message</label>
-                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder=""></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    <input type="submit" value="Envoyer" class="btn btn-primary">
                                                     <div class="submitting"></div>
                                                 </div>
                                             </div>
