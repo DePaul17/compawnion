@@ -3,17 +3,17 @@
         <div class="row">
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h2 class="footer-heading">Compawnion</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p>Votre partenaire pour un animal heureux en votre absence.</p>
             </div>
             <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
                 <h2 class="footer-heading">Quick Links</h2>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="py-2 d-block">Home</a></li>
-                    <li><a href="#" class="py-2 d-block">About</a></li>
-                    <li><a href="#" class="py-2 d-block">Services</a></li>
-                    <li><a href="#" class="py-2 d-block">Works</a></li>
-                    <li><a href="#" class="py-2 d-block">Blog</a></li>
-                    <li><a href="#" class="py-2 d-block">Contact</a></li>
+                    <li><a href="/" class="py-2 d-block">Accueil</a></li>
+                    <li><a href="/about" class="py-2 d-block">À propos</a></li>
+                    <li><a href="/services" class="py-2 d-block">Services</a></li>
+                    <!-- <li><a href="#" class="py-2 d-block">Works</a></li> -->
+                    <li><a href="/blog" class="py-2 d-block">Blog</a></li>
+                    <li><a href="/contact" class="py-2 d-block">Contact</a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
