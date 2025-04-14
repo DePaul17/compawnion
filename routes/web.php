@@ -7,6 +7,7 @@ use App\Http\Controllers\KeptAnimalController;
 use App\Http\Controllers\FavoriteController; 
 use App\Http\Controllers\PetsitterController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\ContactEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -40,6 +41,8 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::post('/sendEmail', [ContactEmailController::class, 'sendEmailContact'])->name('sendEmail');
 
 //  Route::get('/dashboard', [ProfileController::class, 'showDashboard'])
 //     ->middleware(['auth', 'verified'])

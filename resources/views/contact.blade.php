@@ -2,6 +2,24 @@
 
     <!-- END nav -->
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <div class="alert-container">
+            <div class="alert-wrapper">
+                @if (Session::has('message'))
+                    <div class="alert alert-success alert-dismissible text-center slide-down" role="alert" id="alert">
+                        {{ Session::get('message') }}
+                    </div>
+                @endif
+                @if (Session::has('success'))
+                    <div class="alert alert-success alert-dismissible text-center slide-down" role="alert" id="alert">
+                        {{ Session::get('success') }}
+                    </div>
+                @elseif (Session::has('error'))
+                    <div class="alert alert-danger alert-dismissible text-center slide-down" role="alert" id="alert">
+                        {{ Session::get('error') }}
+                    </div>
+                @endif
+            </div>
+        </div>
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
@@ -69,12 +87,13 @@
                             <div class="col-md-7">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
                                     <h3 class="mb-4">Contact</h3>
-                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                    <form method="POST" action="{{ route('sendEmail') }}" id="contactForm" name="contactForm" class="contactForm">
+                                        @csrf
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="label" for="name">Nom  Prenom</label>
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="">
+                                                    <label class="label" for="name">Nom & Prenom</label>
+                                                    <input type="text" class="form-control" name="full_name" id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -92,7 +111,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label class="label" for="#">Message</label>
-                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder=""></textarea>
+                                                    <textarea name="content" class="form-control" id="message" cols="30" rows="4" placeholder=""></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
