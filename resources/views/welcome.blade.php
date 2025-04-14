@@ -6,8 +6,8 @@
             <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
                 data-scrollax-parent="true">
                 <div class="col-md-11 ftco-animate text-center">
-                    <h1 class="mb-4">Highest Quality Care For Pets You'll Love </h1>
-                    <p><a href="#" class="btn btn-primary mr-md-4 py-3 px-4">Learn more <span
+                    <h1 class="mb-4">Votre partenaire pour un animal heureux en votre absence</h1>
+                    <p><a href="/login" class="btn btn-primary mr-md-4 py-3 px-4">Commencer <span
                                 class="ion-ios-arrow-forward"></span></a></p>
                 </div>
             </div>
@@ -23,10 +23,9 @@
                             <span class="flaticon-blind"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Dog Walking</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                            <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span
+                            <h3 class="heading">Garde</h3>
+                            <p>Notre plateforme vous propose des petsitters reconnus pour garder vos animaux heureux en toute sécurité pendant votre absence.</p>
+                            <a href="/vet" class="btn-custom d-flex align-items-center justify-content-center"><span
                                     class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
                         </div>
                     </div>
@@ -37,10 +36,11 @@
                             <span class="flaticon-dog-eating"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Pet Daycare</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                            <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span
+                            <h3 class="heading">Santé</h3>
+                            <p>
+                                Les meilleurs spécialistes sont disponibles pour vos éventuelles questions concernant votre animal y compris une possibilité de consultation pour maintenir votre animal en bonne santé.
+                            </p>
+                            <a href="/vet" class="btn-custom d-flex align-items-center justify-content-center"><span
                                     class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
                         </div>
                     </div>
@@ -51,11 +51,10 @@
                             <span class="flaticon-grooming"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Pet Grooming</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live in Bookmarksgrove right.</p>
-                            <a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+                            <h3 class="heading">Soin</h3>
+                            <p>Avec des événements comme les compawnion parties, nous proposons à vos petits à amour des moments de détente et de divertissement en compagnie d'autres animaux.</p>
+                            <a href="/vet" class="btn-custom d-flex align-items-center justify-content-center"><span
+                                class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
                         </div>
                     </div>
                 </div>
@@ -291,7 +290,7 @@
         <div class="container">
             <div class="row justify-content-center pb-5 mb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
-                    <h2>Happy Clients &amp; Feedbacks</h2>
+                    <h2>Clients heureux &amp; Feedbacks</h2>
                 </div>
             </div>
             <div class="row ftco-animate">
@@ -302,12 +301,11 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="fa fa-quote-left"></span></div>
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p class="mb-4">Compawnion est un véritable soulagement, autant pour moi que pour ma petite louloute qui est gardée par un petsitter reconnus en toute sécurité.</p>
                                     <div class="d-flex align-items-center">
                                         <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                                         <div class="pl-3">
-                                            <p class="name">Roger Scott</p>
+                                            <p class="name">Julien Boucher</p>
                                             <span class="position">Marketing Manager</span>
                                         </div>
                                     </div>
@@ -319,13 +317,12 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="fa fa-quote-left"></span></div>
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p class="mb-4">Désormais, j'ai une solution sûre pour faire garder mon petit chakon un teckel un peu capricieux. Avec les compawnion party, il est épanoui aujourd'hui</p>
                                     <div class="d-flex align-items-center">
                                         <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                                         <div class="pl-3">
-                                            <p class="name">Roger Scott</p>
-                                            <span class="position">Marketing Manager</span>
+                                            <p class="name">Sebastien Thomas</p>
+                                            <span class="position">Responsable IT</span>
                                         </div>
                                     </div>
                                 </div>
@@ -336,19 +333,18 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="fa fa-quote-left"></span></div>
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p class="mb-4">Depuis que j'ai découvert compawnion, ma femme et moi pouvons maintenant aller en vacances sans nous soucier de notre chat. Merci compawnion</p>
                                     <div class="d-flex align-items-center">
                                         <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
                                         <div class="pl-3">
-                                            <p class="name">Roger Scott</p>
-                                            <span class="position">Marketing Manager</span>
+                                            <p class="name">Roger Golman</p>
+                                            <span class="position">Directeur des opérateurs</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="testimony-wrap py-4">
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="fa fa-quote-left"></span></div>
@@ -381,7 +377,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -392,7 +388,7 @@
         <div class="container">
             <div class="row justify-content-center pb-5 mb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
-                    <h2>Latest news from our blog</h2>
+                    <h2>Dernières nouvelles de notre blog</h2>
                 </div>
             </div>
             <div class="row d-flex">
@@ -403,7 +399,7 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">7 Avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
@@ -419,9 +415,9 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">7 Avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
-                                <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                                <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 2</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>
@@ -435,9 +431,9 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">6 Avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
-                                <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                                <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 5</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>
