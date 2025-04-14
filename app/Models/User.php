@@ -18,7 +18,6 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $fillable = [
-        'name',
         'email',
         'password',
     ];
@@ -50,5 +49,9 @@ class User extends Authenticatable
     {
         return $this->hasOne(Client::class);
     }
+
+    public function conversations() {
+        return $this->hasMany(Conversation::class, 'sender_id')->orWhere('receiver_id', $this->id);
+    } 
 
 }

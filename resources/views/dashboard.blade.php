@@ -50,7 +50,7 @@
                             <x-input-error :messages="$errors->get('date_of_birth')" class="mt-2" />
                         </div>
 
-                        <div class="mt-4">
+                        <!-- <div class="mt-4">
                             <x-input-label for="address" :value="__('Adresse')" />
 
                             <x-text-input id="address" class="block mt-1 w-full"
@@ -59,6 +59,25 @@
                                 required autocomplete="address" />
 
                             <x-input-error :messages="$errors->get('address')" class="mt-2" />
+                        </div> -->
+
+                        <div class="mt-4 grid grid-cols-4 gap-2">
+                            <div>
+                                <x-input-label for="street" :value="__('Rue')" />
+                                <x-text-input id="street" class="mt-1 w-full" type="text" name="street" required />
+                            </div>
+                            <div>
+                                <x-input-label for="postal_code" :value="__('Code Postal')" />
+                                <x-text-input id="postal_code" class="mt-1 w-full" type="text" name="postal_code" required />
+                            </div>
+                            <div>
+                                <x-input-label for="city" :value="__('Ville')" />
+                                <x-text-input id="city" class="mt-1 w-full" type="text" name="city" required />
+                            </div>
+                            <div>
+                                <x-input-label for="country" :value="__('Pays')" />
+                                <x-text-input id="country" class="mt-1 w-full" type="text" name="country" value="France" readonly />
+                            </div>
                         </div>
 
                         <div class="mt-4">
@@ -107,7 +126,7 @@
                         <div id="attestation_field" class="mt-4 hidden">
                             <x-input-label for="attestation" :value="__('Attestation')" />
                             <input type="file" id="attestation" name="attestation"
-                            class="block mt-1 w-full text-sm text-gray-900 dark:text-white
+                                class="block mt-1 w-full text-sm text-gray-900 dark:text-white
                                 file:mr-4 file:py-2 file:px-4
                                 file:rounded-md file:border-0
                                 file:text-sm file:font-semibold
@@ -131,10 +150,11 @@
         </div>
     </div>
     @elseif (auth()->user()->client && auth()->user()->client->type_client === 'client')
-        <h5>Votre profil [client] est créé</h5>
+    @include('client.index-client', ['petsitters' => $petsitters])
     @elseif (auth()->user()->client && auth()->user()->client->type_client === 'petsitter')
-        <br><br><br><br> @include('petsitter.index-petsitter')
+    <br><br><br><br> @include('petsitter.index-petsitter')
     @elseif (auth()->user()->client && auth()->user()->client->type_client === 'specialist')
-        <h5>Votre profil [specialist] est créé</h5>
+    <h5>Votre profil [specialist] est créé</h5>
     @endif
+
 </x-app-layout>

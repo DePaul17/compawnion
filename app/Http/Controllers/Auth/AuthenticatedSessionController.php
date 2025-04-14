@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 use App\Models\Client;
+use App\Models\Favorite;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -36,7 +37,19 @@ class AuthenticatedSessionController extends Controller
     {
         $client = Client::where('user_id', Auth::id())->first();
 
-        return view('dashboard', ['client' => $client]);
+        $petsitters = Client::with(['user', 'disponibilities', 'keptAnimals'])
+            ->where('type_client', 'petsitter')
+            ->get();
+
+        $favorites = [];
+
+        if ($client) {
+            $favorites = Favorite::where('client_id', $client->id)
+                ->pluck('id', 'petsitter_id')
+                ->toArray();
+        }
+
+        return view('dashboard', compact('client', 'petsitters', 'favorites'));
     }
 
     /**

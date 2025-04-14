@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
-                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Veterinarian <i class="ion-ios-arrow-forward"></i></span></p>
-                    <h1 class="mb-0 bread">Meet Our Veterinary Doctor</h1>
+                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Veterinaire <i class="ion-ios-arrow-forward"></i></span></p>
+                    <h1 class="mb-0 bread">Rencontrez nos vétérinaires</h1>
                 </div>
             </div>
         </div>
@@ -21,15 +21,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-1.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Lloyd Wilson</h3>
-                            <span class="position mb-2">Health Coach</span>
+                            <h3>Lucas Moreau</h3>
+                            <span class="position mb-2">Vétérinaire comportementaliste</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>J'aide les animaux à surmonter leurs troubles du comportement (anxiété, agressivité, peurs) avec des méthodes douces et personnalisées.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -41,15 +38,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Rachel Parker</h3>
-                            <span class="position mb-2">Life &amp; Business Coach</span>
+                            <h3>Claire Dupont</h3>
+                            <span class="position mb-2">Spécialiste en soins préventifs et bien-être animal</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Passionnée par les animaux depuis toujours, j'exerce la médecine vétérinaire avec rigueur et bienveillance depuis plus de 10 ans. </p>
                                 <ul class="ftco-social text-center">
                                     <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -61,15 +55,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Ian Smith</h3>
-                            <span class="position mb-2">Executive Coach</span>
+                            <h3>Julia Martin</h3>
+                            <span class="position mb-2">Vétérinaire généraliste – Soins des animaux de compagnie</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Empathique et douce, Claire accompagne les familles et leurs animaux avec une attention particulière portée à la prévention et au bien-être au quotidien.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,15 +72,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-4.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Alicia Henderson</h3>
-                            <span class="position mb-2">Health Coach</span>
+                            <h3> Dr. Romain Chevalier</h3>
+                            <span class="position mb-2">Vétérinaire dentiste – Spécialiste en soins bucco-dentaires</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Romain intervient sur les problèmes dentaires des chiens, chats et NAC. Son expertise permet d’éviter de nombreuses douleurs invisibles mais fréquentes.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -102,15 +90,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-5.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Lloyd Wilson</h3>
-                            <span class="position mb-2">Executive Coach</span>
+                            <h3> Dr. Camille Fontaine</h3>
+                            <span class="position mb-2">Vétérinaire aviaire – Soins des oiseaux domestiques et exotiques</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Camille est passionnée par les perroquets, canaris et autres oiseaux tropicaux. j'allie connaissances médicales et conseils en comportement aviaire.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -122,15 +107,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-6.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Rachel Parker</h3>
-                            <span class="position mb-2">Health Coach</span>
+                            <h3>Dr. Adrien Moreau</h3>
+                            <span class="position mb-2">Vétérinaire urgentiste – Clinique 24h/24</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Disponible jour et nuit, j'intervient en urgence pour les cas critiques : accidents, empoisonnements, chirurgies d’urgence.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -142,15 +124,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-7.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Ian Smith</h3>
-                            <span class="position mb-2">Health Coach</span>
+                            <h3>Hugo Dubois</h3>
+                            <span class="position mb-2">Vétérinaire généticienne – Reproduction & sélection</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Isabelle travaille en lien avec des éleveurs pour assurer une reproduction saine et responsable. j'accompagne aussi les familles dans les choix liés à la stérilisation ou la prévention des maladies héréditaires.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -162,15 +141,12 @@
                             <div class="img align-self-stretch" style="background-image: url(images/staff-8.jpg);"></div>
                         </div>
                         <div class="text pt-3 px-3 pb-4 text-center">
-                            <h3>Fred Henderson</h3>
-                            <span class="position mb-2">Executive Coach</span>
+                            <h3> Dr. Stéphane Lemoine</h3>
+                            <span class="position mb-2">Vétérinaire neurologue – Troubles du système nerveux</span>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                                <p>Avec une approche ultra spécialisée, je prend en charge les animaux souffrant de troubles moteurs, convulsions ou pathologies rares du cerveau et de la moelle épinière.</p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                    <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+                                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-comment"></span></a></li>>
                                 </ul>
                             </div>
                         </div>
@@ -186,7 +162,8 @@
             <div class="row d-md-flex justify-content-end">
                 <div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
                     <h2 class="mb-4">Consultation</h2>
-                    <form action="#" class="appointment">
+                    <form action="{{ route('subscription.create') }}" method="POST" class="appointment">
+                        @csrf
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -194,12 +171,17 @@
                                         <div class="select-wrap">
                                             <div class="icon"><span class="fa fa-chevron-down"></span></div>
                                             <select name="" id="" class="form-control">
-                                                <option value="">Select services</option>
-                                                <option value="">Cat Sitting</option>
-                                                <option value="">Dog Walk</option>
-                                                <option value="">Pet Spa</option>
-                                                <option value="">Pet Grooming</option>
-                                                <option value="">Pet Daycare</option>
+                                            <option value="">Sélectionnez un service</option>
+                                            <option value="consultation-generale">Consultation générale</option>
+                                            <option value="soins-preventifs">Soins préventifs & bilans de santé</option>
+                                            <option value="comportement-animal">Consultation comportementale</option>
+                                            <option value="urgence">Consultation d'urgence 24h/24</option>
+                                            <option value="neurologie">Consultation neurologique</option>
+                                            <option value="dentisterie">Soins bucco-dentaires</option>
+                                            <option value="nac-aviaire">Soins pour oiseaux et NAC</option>
+                                            <option value="reproduction">Suivi reproduction & génétique</option>
+                                            <option value="vaccination">Vaccination & rappels</option>
+                                            <option value="conseil-bien-etre">Conseils en bien-être animal</option>
                                             </select>
                                         </div>
                                     </div>
@@ -207,12 +189,12 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name">
+                                    <input type="text" class="form-control" placeholder="Votre Nom">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Vehicle number">
+                                    <input type="text" class="form-control" placeholder="Telephone">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -227,7 +209,7 @@
                                 <div class="form-group">
                                     <div class="input-wrap">
                                         <div class="icon"><span class="fa fa-clock-o"></span></div>
-                                        <input type="text" class="form-control appointment_time" placeholder="Time">
+                                        <input type="text" class="form-control appointment_time" placeholder="Heure">
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +220,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
+                                    <input type="submit" value="Envoyer" class="btn btn-primary py-3 px-4">
                                 </div>
                             </div>
                         </div>
