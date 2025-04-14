@@ -9,6 +9,11 @@ use App\Http\Controllers\PetsitterController;
 use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/map', function () {
+    return view('map'); // La vue 'map.blade.php'
+});
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -95,3 +100,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+

@@ -116,7 +116,49 @@
         </div>
     </section>
 
-    <div id="map" class="map"></div>
+    
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Google Maps</title>
+    <style>
+        #map {
+            height: 500px; /* Définir la hauteur de la carte */
+            width: 100%;   /* La carte prendra toute la largeur disponible */
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="map" class="map"></div> <!-- C'est ici que la carte sera affichée -->
+
+    <!-- Le script de Google Maps API -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPLmd_X_G_AM1Xmv-mX9VU4ym_ybNTkvg&loading=async&libraries=maps&v=beta" defer></script>
+    <script>
+        function initMap() {
+            // Coordonnées de l'adresse : 6-8 Impasse des 2 Cousins, 75017 Paris
+            var adresse = { lat: 48.887751, lng: 2.298027 };
+
+            // Initialisation de la carte
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15, // Niveau de zoom
+                center: adresse, // Position de départ de la carte
+            });
+
+            // Ajout d'un marqueur pour l'adresse
+            var marker = new google.maps.Marker({
+                position: adresse,
+                map: map,
+                title: '6-8 Impasse des 2 Cousins, 75017 Paris',
+            });
+        }
+    </script>
+</body>
+</html>
+
 
 
     <!-- loader -->

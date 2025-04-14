@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
-                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
                     <h1 class="mb-0 bread">Blog</h1>
                 </div>
             </div>
@@ -21,11 +21,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">07 avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Cette semaine Louloute a rejoint la team compawnion en se faisant garder par notre petsitter passionné.e</a></h3>
                         </div>
                     </div>
                 </div>
@@ -35,11 +35,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">07 Avril, 2020</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Compawnion party était incroyable avec chichi qui s'est refais une petite beauté 💅</a></h3>
                         </div>
                     </div>
                 </div>
@@ -49,11 +49,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">06 AVril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Michou a adoré son petit tête à tête de ce week-end avec un spécialiste expérimenté.</a></h3>
                         </div>
                     </div>
                 </div>
@@ -64,11 +64,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">05 Avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Ce matin, Maxou a passé un moment de détente avec notre super petsitter (et son chat), qui a su le gâter comme il se doit ! 🐾</a></h3>
                         </div>
                     </div>
                 </div>
@@ -78,11 +78,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">02 Avril, 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Ce week-end, Nala a fait une petite sieste en toute tranquillité, chouchoutée par notre équipe professionnelle ! 😴</a></h3>
                         </div>
                     </div>
                 </div>
@@ -92,11 +92,11 @@
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">April 07, 2020</a></div>
+                                <div><a href="#">31 mars 2025</a></div>
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            <h3 class="heading"><a href="#">Ce matin, Balto et Rex ont profité d'une longue balade dans le parc, accompagnés par notre petsitter passionné qui leur a offert un moment de liberté et d'aventure. 🌳🐕</a></h3>
                         </div>
                     </div>
                 </div>
