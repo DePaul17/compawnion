@@ -53,11 +53,11 @@
                                 {{ __('Animaux gardés') }}
                             </x-nav-link>
                         </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                        {{-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                             <x-nav-link :href="route('dashboard')" :active="request()->routeIs('favorites')" class="hover:text-green-400">
                                 {{ __('Mes Documents') }}
                             </x-nav-link>
-                        </div>
+                        </div> --}}
                         <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                             <x-nav-link :href="route('index.chat')" :active="request()->routeIs('index.chat')" class="hover:text-green-400">
                                 {{ __('Messages') }}

@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="flex h-screen">
         <!-- Section liste des favoris -->
-        <div class="w-full bg-white dark:bg-gray-800 p-6 overflow-y-auto">
+        <div class="w-full bg-zinc-100 dark:bg-gray-800 p-6 overflow-y-auto">
             @if ($favorites->isEmpty())
                 <div class="flex flex-col items-center justify-center h-full text-center text-gray-500 dark:text-gray-300">
                     <p class="text-xl font-semibold mb-4">Aucun petsitter ajouté en favori pour le moment.</p>

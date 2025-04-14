@@ -5,7 +5,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 @foreach ($petsitters as $petsitter)
                 <a href="{{ route('petsitter.show', $petsitter->id) }}" class="group block">
-                    <div class="relative bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 text-center transition transform hover:scale-105">
+                    <div class="relative bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 text-center transition transform hover:scale-105 
+                        h-[400px] flex flex-col justify-between overflow-hidden">
                         <!-- Bouton favori -->
                         @php
                         $isFavorite = array_key_exists($petsitter->id, $favorites);

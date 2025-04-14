@@ -37,6 +37,8 @@ class KeptAnimalController extends Controller
             return back()->withErrors(['client' => 'Aucun client associé à cet utilisateur.']);
         }
 
+        //dd($client->id);
+
         KeptAnimal::create([
             'client_id'          => $client->id,
             'animal_type'        => $request->input('animal_type'),

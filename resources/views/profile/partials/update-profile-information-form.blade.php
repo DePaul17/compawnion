@@ -92,10 +92,29 @@
             <x-input-error class="mt-2" :messages="$errors->get('date_of_birth')" />
         </div>
 
-        <div>
+        {{-- <div>
             <x-input-label for="name" :value="__('Adresse')" />
             <x-text-input id="name" name="address" type="text" class="mt-1 block w-full" :value="old('adress', $client->address ?? '')" required autofocus autocomplete="adress" />
             <x-input-error class="mt-2" :messages="$errors->get('adress')" />
+        </div> --}}
+
+        <div class="mt-4 grid grid-cols-4 gap-2">
+            <div>
+                <x-input-label for="street" :value="__('Rue')" />
+                <x-text-input id="street" class="mt-1 w-full" type="text" name="street" :value="old('street', optional(json_decode($client->address, true))['street'] ?? '')" required />
+            </div>
+            <div>
+                <x-input-label for="postal_code" :value="__('Code Postal')" />
+                <x-text-input id="postal_code" class="mt-1 w-full" type="text" name="postal_code" :value="old('street', optional(json_decode($client->address, true))['postal_code'] ?? '')"  required />
+            </div>
+            <div>
+                <x-input-label for="city" :value="__('Ville')" />
+                <x-text-input id="city" class="mt-1 w-full" type="text" name="city" :value="old('street', optional(json_decode($client->address, true))['city'] ?? '')" required />
+            </div>
+            <div>
+                <x-input-label for="country" :value="__('Pays')" />
+                <x-text-input id="country" class="mt-1 w-full" type="text" name="country" value="France" readonly />
+            </div>
         </div>
 
         <div>

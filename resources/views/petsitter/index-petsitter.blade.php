@@ -28,9 +28,9 @@
         </div>
     </div>
 
-    <div class="alert mt-8 p-4 bg-red-100 text-red-800 border border-red-300 rounded-lg">
+    {{-- <div class="alert mt-8 p-4 bg-red-100 text-red-800 border border-red-300 rounded-lg">
         <strong class="font-semibold">⚠️ Document manquant :</strong> Veuillez télécharger votre attestation ACACED pour finaliser votre profil.
-    </div>
+    </div> --}}
 </div>
 <div class="mt-20">
     @include('components.footer-connected')
