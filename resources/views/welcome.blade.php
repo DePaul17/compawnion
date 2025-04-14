@@ -394,23 +394,22 @@
             <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20 rounded"
+                        <a href="/blog" class="block-20 rounded"
                             style="background-image: url('images/image_1.jpg');">
                         </a>
                         <div class="text p-4">
                             <div class="meta mb-2">
-                                <div><a href="#">7 Avril, 2025</a></div>
-                                <div><a href="#">Admin</a></div>
-                                <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+                                <div><a href="">7 Avril, 2025</a></div>
+                                <div><a href="">Admin</a></div>
+                                <div><a href="" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
-                                    blind texts</a></h3>
+                            <h3 class="heading"><a href="/blog"> Cette semaine Louloute a rejoint la team compawnion en se faisant gardé par notre petsitter passionné. </a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20 rounded"
+                        <a href="/blog" class="block-20 rounded"
                             style="background-image: url('images/image_2.jpg');">
                         </a>
                         <div class="text p-4">
@@ -419,14 +418,13 @@
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 2</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
-                                    blind texts</a></h3>
+                            <h3 class="heading"><a href="/blog">Compawnion party était incoryable avec chichi qui s'est refais une petite beauté 💅</a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20 rounded"
+                        <a href="/blog" class="block-20 rounded"
                             style="background-image: url('images/image_3.jpg');">
                         </a>
                         <div class="text p-4">
@@ -435,8 +433,7 @@
                                 <div><a href="#">Admin</a></div>
                                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 5</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
-                                    blind texts</a></h3>
+                            <h3 class="heading"><a href="/blog">Michou a adoré son petit tête à tête de ce week-end avec un spécialiste expérimenté.</a></h3>
                         </div>
                     </div>
                 </div>

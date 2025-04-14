@@ -1,0 +1,34 @@
+.alert-container {
+    position: fixed;
+    top: 70px; /* Ajuste cette valeur pour positionner l'alerte en dessous du header */
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-wrapper {
+    width: 38rem;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.alert {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100px); /* Départ initial au-dessus de l'écran */
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* L'effet de descente (apparition) */
+.slide-down {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* L'effet de montée (disparition) */
+.slide-up {
+    transform: translateY(-100px);
+    opacity: 0;
+}

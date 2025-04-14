@@ -11,11 +11,8 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      */
-     
     public function run()
     {
-        //\App\Models\User::factory(5)->create();
-
         User::updateOrCreate(
             ['email' => 'root@compawnion.com'],
             ['password' => bcrypt('root'),]
