@@ -28,9 +28,26 @@
         </div>
     </div>
 
-    {{-- <div class="alert mt-8 p-4 bg-red-100 text-red-800 border border-red-300 rounded-lg">
-        <strong class="font-semibold">⚠️ Document manquant :</strong> Veuillez télécharger votre attestation ACACED pour finaliser votre profil.
-    </div> --}}
+    @php
+    $client = auth()->user()?->client;
+    @endphp
+
+    @if ($client)
+        @unless ($client->disponibilities()->exists())
+            <div class="alert mt-8 p-4 bg-red-100 text-red-800 border border-red-300 rounded-lg">
+                <strong class="font-semibold">⚠️ Disponibilités manquantes :</strong>
+                Veuillez <a href="{{ route('disponibilites') }}" class="underline text-yellow-900 font-medium hover:text-yellow-700">ajouter vos disponibilités</a> pour que votre profil soit visible.
+            </div>
+        @endunless
+
+        @unless ($client->keptAnimals()->exists())
+            <div class="alert mt-4 p-4 bg-red-100 text-red-800 border border-red-300 rounded-lg">
+                <strong class="font-semibold">⚠️ Animaux gardés non renseignés :</strong>
+                Veuillez <a href="{{ route('kept_animals') }}" class="underline text-red-900 font-medium hover:text-red-700">renseigner les types d’animaux</a> que vous pouvez garder pour que votre profil soit visible.
+            </div>
+        @endunless
+    @endif
+
 </div>
 <div class="mt-20">
     @include('components.footer-connected')

@@ -29,6 +29,11 @@ class Client extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function client()
+    {
+        return $this->hasOne(Client::class);
+    }
+
     public function keptAnimals()
     {
         return $this->hasMany(KeptAnimal::class);
@@ -38,5 +43,4 @@ class Client extends Model
     {
         return $this->hasMany(Disponibility::class);
     }
-
 }
